@@ -1,0 +1,37 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 16 Jan 2018 12:04:09 at http://www.websoftex.com/development/chitfund-software.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.websoftex.com/development/chitfund-software.php -O1 "F:\aswathy\chitty" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:16:51	Warning: 	file not stored in cache due to bogus state (broken size, expected 9975961 got 1813100): www.websoftex.com/development/chitfund/img/screenshot/04.png
+12:17:21	Error: 	"Not Found" (404) at link www.websoftex.com/development/icon.png (from www.websoftex.com/development/chitfund-software.php)
+12:17:21	Error: 	"Forbidden" (403) at link connect.facebook.net/en_US/all.js (from www.websoftex.com/development/chitfund-software.php)
+12:17:22	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/screenshot/large/mp1.jpg (from www.websoftex.com/development/chitfund-software.php)
+12:17:38	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/screenshot/large/mp5.jpg (from www.websoftex.com/development/chitfund-software.php)
+12:17:49	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/screenshot/large/pl3.jpg (from www.websoftex.com/development/chitfund-software.php)
+12:18:07	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/team/demo2.jpg (from www.websoftex.com/development/chitfund-software.php)
+12:18:08	Warning: 	Retry after error -4 (Incorrect length (1813100 Bytes, 9975961 expected)) at link www.websoftex.com/development/chitfund/img/screenshot/04.png (from www.websoftex.com/development/chitfund-software.php)
+12:18:10	Warning: 	Retry after error 504 (Timeout while reading response from Server) at link www.websoftex.com/development/chitfund/img/screenshot/06.png (from www.websoftex.com/development/chitfund-software.php)
+12:18:10	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/fonts/glyphicons-halflings-regular.eot (from www.websoftex.com/development/chitfund/css/bootstrap.css)
+12:18:10	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/fonts/glyphicons-halflings-regular.eot? (from www.websoftex.com/development/chitfund/css/bootstrap.css)
+12:18:10	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/fonts/glyphicons-halflings-regular.woff2 (from www.websoftex.com/development/chitfund/css/bootstrap.css)
+12:18:10	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/fonts/glyphicons-halflings-regular.woff (from www.websoftex.com/development/chitfund/css/bootstrap.css)
+12:18:10	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/fonts/glyphicons-halflings-regular.ttf (from www.websoftex.com/development/chitfund/css/bootstrap.css)
+12:18:10	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/fonts/glyphicons-halflings-regular.svg (from www.websoftex.com/development/chitfund/css/bootstrap.css)
+12:18:10	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0 (from www.websoftex.com/development/chitfund/fonts/font-awesome/css/font-awesome.css)
+12:18:15	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/css/grabbing.png (from www.websoftex.com/development/chitfund/css/owl.carousel.css)
+12:18:15	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/css/AjaxLoader.gif (from www.websoftex.com/development/chitfund/css/owl.theme.css)
+12:18:30	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/03.jpg (from www.websoftex.com/development/chitfund/css/style.css)
+12:18:55	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/05.jpg (from www.websoftex.com/development/chitfund/css/style.css)
+12:18:55	Error: 	"Not Found" (404) at link www.websoftex.com/development/chitfund/css/lightbox/css/loading.gif (from www.websoftex.com/development/chitfund/css/lightbox/css/jquery.lightbox.css)
+12:18:55	Warning: 	Retry after error -4 (No data (connection closed)) at link www.websoftex.com/development/chitfund/img/screenshot/06.png (from www.websoftex.com/development/chitfund-software.php)
+12:20:15	Warning: 	file not stored in cache due to bogus state (broken size, expected 9975961 got 1932820): www.websoftex.com/development/chitfund/img/screenshot/04.png
+12:20:15	Warning: 	Retry after error -4 (Incorrect length (1932820 Bytes, 9975961 expected)) at link www.websoftex.com/development/chitfund/img/screenshot/04.png (from www.websoftex.com/development/chitfund/img/screenshot/04.png)
+12:20:15	Error: 	"Timeout while reading response from Server" (504) after 2 retries at link www.websoftex.com/development/chitfund/img/screenshot/06.png (from www.websoftex.com/development/chitfund-software.php)
+12:20:16	Error: 	"No data (connection closed)" (-4) after 2 retries at link www.websoftex.com/development/chitfund/img/screenshot/04.png (from www.websoftex.com/development/chitfund/img/screenshot/04.png)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 minutes 7 seconds : 182 links scanned, 155 files written (20815381 bytes overall) [24059057 bytes received at 24880 bytes/sec], 1039598 bytes transferred using HTTP compression in 44 files, ratio 39%, 2.4 requests per connection
+(13 errors, 13 warnings, 0 messages)

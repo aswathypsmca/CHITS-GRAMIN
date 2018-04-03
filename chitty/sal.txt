@@ -1,0 +1,27 @@
+<!--<tr><td><h3>STAFF SALARY</h3></td></tr>
+			
+			</select></td></tr></br>
+			<tr><td> staff id:</td> 
+			<td><select name="chitty" >
+				<option value="">select id</option>
+			<?php
+				$query = "SELECT * FROM tbl_staff ";
+				$results = mysqli_query($con, $query);
+			while($row=mysqli_fetch_array($results)) 
+			{
+			?>
+				<option value="<?php echo $row["s_name"];?>"> <?php echo $row["s_id"]; ?> </option>
+			<?php
+				echo $row["s_id"];
+			}
+			?>
+			
+		
+	<tr><td> NAME:</td> <td><input type="text"name="cname" id="sname"></td></tr></br><tr></tr> 
+	<tr><td> ADDRESS:</td> <td><input type="text" name="caddr"id="saddr"></td></tr></br><tr></tr>
+	<tr><td> PHONE:</td> <td><input type="text" name="cmob" id="smob" maxlength="10" ></td></TR></br></tr><tr></tr>
+		
+	<tr><td> BASIC SALARY:</td><td><input type="varchar" name="bs"  required></td></tr></br><tr></tr>
+	
+	<tr><td ><input type="submit" name="submit" value="CALC">&nbsp&nbsp<input type="reset" name="clear" value="RESET"></td></tr><tr></tr>	
+	&nbsp&nbsp-->

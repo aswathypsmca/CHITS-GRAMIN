@@ -1,0 +1,71 @@
+<?php
+include 'dbcon.php';
+
+if(!(isset($_SESSION['user_name'])))
+{
+
+header('location:index.php');
+}
+
+
+
+if(isset($_POST['submit']))
+{
+
+$a=$_POST['id'];
+$b=$_POST['cname'];
+$c=$_POST['caddrs'];
+$d=$_POST['cmob'];
+$e=$_POST['cemail'];
+$f=$_POST['cpan'];
+
+$sql2="update `tbl_customer` set status='1' where cust_id=$a";
+
+$result=mysqli_query($con,$sql2);
+
+$q13 = "SELECT * FROM `tbl_login` where `user_name`='$e' and `role_id` ='3' ";
+$row3 = mysqli_query($con,$q13);
+$r=mysqli_fetch_array($row3);
+$p=$r['password'];
+//echo $p;
+//echo $e;
+$to = "$e";
+$subject = "gramin chitty management";
+
+$message = "
+<html>
+<head>
+<title>HTML email</title>
+</head>
+<body>
+<p>This email contains user and password</p>
+<table>
+<tr>
+<th>USER NAME</th>
+<th>PASSWORD</th>
+</tr>
+<tr>
+<td>$e</td>
+<td>$p</td>
+</tr>
+</table>
+</body>
+</html>
+";
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <aswathypsmca123@gmail.com>' . "\r\n";
+$headers .= 'Cc: aswathypsmca123@gmail.com' . "\r\n";
+
+mail($to,$subject,$message,$headers);
+
+//header('location:memberview.php');
+//header('location:emphome.php');
+//$result=mysqli_query($con,$sql);
+//header()
+}
+?>
